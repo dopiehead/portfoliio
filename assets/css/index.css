@@ -1,18 +1,30 @@
+
+html{
+    
+     scroll-behavior:smooth;
+ 
+     user-select: none;
+}
+
+
+
+
+
 body{
-    font-family: poppins;
-    color: white;
-    width:100%;
+     font-family: poppins;
+     color: white;
+     width:100%;
 
 }
 
 
 
 .menu{
-    background-image: linear-gradient(to right top,rgba(4, 103, 131, 0.7),rgba(48, 130, 153, 0.9)),url("../img/img.JPG");
-background-repeat: no-repeat;
-height:100vh;
-background-size:cover;
-background-position: center;
+     background-image: linear-gradient(to right top,rgba(4, 103, 131, 0.7),rgba(48, 130, 153, 0.9)),url("../img/img.JPG");
+      background-repeat: no-repeat;
+      height:100vh;
+      background-size:cover;
+      background-position: center;
 }
 
 
@@ -418,7 +430,7 @@ color:rgb(114, 249, 207);
 
 .A_img{
 
-    background-image:linear-gradient(to right bottom,rgba(0, 0, 10, 0.6),rgba(0, 0, 0, 0.8)),url("../img/bg2.JPG");
+    background-image:linear-gradient(to right bottom,rgba(0, 0, 10, 0.6),rgba(0, 0, 0, 0.8)),url("../img/bg2.jpg");
     height: 500px;
     width:100%;
     background-size: cover;
@@ -505,7 +517,7 @@ color:rgb(114, 249, 207);
 
 .B_img{
 
-    background-image:linear-gradient(to right bottom,rgba(0, 0, 10, 0.6),rgba(0, 0, 0, 0.8)),url("../img/bg2.JPG");
+    background-image:linear-gradient(to right bottom,rgba(0, 0, 10, 0.6),rgba(0, 0, 0, 0.8)),url("../img/bg2.jpg");
     height: 500px;
     width:100%;
     background-size: cover;
@@ -598,7 +610,7 @@ color:rgb(114, 249, 207);
 
 .C_img{
 
-    background-image:linear-gradient(to right bottom,rgba(0, 0, 10, 0.6),rgba(0, 0, 0, 0.9)),url("../img/bg4.JPG");
+    background-image:linear-gradient(to right bottom,rgba(0, 0, 10, 0.6),rgba(0, 0, 0, 0.9)),url("../img/bg4.jpg");
     height: 500px;
     width:100%;
     background-size: cover;
@@ -693,7 +705,7 @@ color:rgb(114, 249, 207);
 
 .D_img{
 
-    background-image:linear-gradient(to right bottom,rgba(0, 0, 10, 0.6),rgba(0, 0, 0, 0.9)),url("../img/bg4.JPG");
+    background-image:linear-gradient(to right bottom,rgba(0, 0, 10, 0.6),rgba(0, 0, 0, 0.9)),url("../img/bg4.jpg");
     height: 500px;
     width:100%;
     background-size: cover;
@@ -777,7 +789,7 @@ color:rgb(114, 249, 207);
 
 .E_img{
 
-    background-image:linear-gradient(to right bottom,rgba(0, 0, 10, 0.6),rgba(0, 0, 0, 0.8)),url("../img/bg5.JPG");
+    background-image:linear-gradient(to right bottom,rgba(0, 0, 10, 0.6),rgba(0, 0, 0, 0.8)),url("../img/bg5.jpg");
     height: 500px;
     width:100%;
     background-size: cover;
@@ -863,7 +875,7 @@ color:rgb(114, 249, 207);
 
 .F_img{
 
-    background-image:linear-gradient(to right bottom,rgba(16, 43, 58, 0.8),rgba(0, 0, 0, 0.8)),url("../img/bg6.JPG");
+    background-image:linear-gradient(to right bottom,rgba(16, 43, 58, 0.8),rgba(0, 0, 0, 0.8)),url("../img/bg6.jpg");
     height: 500px;
     width:100%;
     background-size: cover;
