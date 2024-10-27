@@ -5,7 +5,6 @@ $(document).ready(function() {
 
          $(this).toggleClass("close");
 
-
          $("#myform").toggleClass("overlayParent");
 
          $("#myform").css("transition", "0.3s ease-in-out");
@@ -14,19 +13,12 @@ $(document).ready(function() {
     });
 
 
-
-
-
 $(".open_description").click(function(e) {
     e.preventDefault();
     
     var $this = $(this);
     $this.parent().next().slideToggle();
 });
-
-
-
-
 
         });
 
