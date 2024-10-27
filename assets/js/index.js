@@ -12,13 +12,18 @@ $(document).ready(function() {
 
     });
 
-
-$(".open_description").click(function(e) {
-    e.preventDefault();
+    $(".open_description").click(function(e) {
+        e.preventDefault();
     
-    var $this = $(this);
-    $this.parent().next().slideToggle();
-});
+        var $this = $(this);
+        var $description = $this.parent().next();
+    
+        $description.slideToggle();
+    
+        // Toggle icons
+        $this.find(".plus").toggle();
+        $this.find(".minus").toggle();
+    });
 
         });
 
