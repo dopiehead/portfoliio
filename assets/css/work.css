@@ -32,7 +32,7 @@ color:rgb(114, 249, 207);
 
 .A_img{
 
-    background-image:linear-gradient(to right bottom,rgba(0, 0, 10, 0.8),rgba(0, 0, 0, 0.5)),url("../img/bg1.jpg");
+    background-image:linear-gradient(to right bottom,rgba(0, 0, 10, 0.2),rgba(0, 0, 0, 0.9)),url("../img/bg1.jpg");
     height: 500px;
     width:100%;
     background-size: cover;
@@ -137,7 +137,7 @@ color:rgb(114, 249, 207);
 
 .B_img{
 
-    background-image:linear-gradient(to right bottom,rgba(0, 0, 10, 0.6),rgba(0, 0, 0, 0.9)),url("../img/bg2.jpg");
+    background-image:linear-gradient(to right bottom,rgba(0, 0, 10, 0.9),rgba(0, 0, 0, 0.4)),url("../img/bg2.jpg");
     height: 500px;
     width:100%;
     background-size: cover;
@@ -241,7 +241,7 @@ color:rgb(114, 249, 207);
 
 .C_img{
 
-    background-image:linear-gradient(to right bottom,rgba(0, 0, 10, 0.6),rgba(0, 0, 0, 0.8)),url("../img/bg3.jpg");
+    background-image:linear-gradient(to right bottom,rgba(0, 0, 10, 0.3),rgba(0, 0, 0, 0.9)),url("../img/bg3.jpg");
     height: 500px;
     width:100%;
     background-size: cover;
@@ -347,7 +347,7 @@ color:rgb(114, 249, 207);
 
 .D_img{
 
-    background-image:linear-gradient(to right bottom,rgba(0, 0, 10, 0.8),rgba(0, 0, 0, 0.8)),url("../img/bg4.jpg");
+    background-image:linear-gradient(to right bottom,rgba(0, 0, 10, 0.8),rgba(0, 0, 0, 0.2)),url("../img/bg4.jpg");
     height: 500px;
     width:100%;
     background-size: cover;
@@ -359,7 +359,7 @@ color:rgb(114, 249, 207);
 
     .D_img{
 
-        background-image:linear-gradient(to right bottom,rgba(0, 0, 10, 0.5),rgba(0, 0, 0, 0.3)),url("../img/bg4.jpg");
+        background-image:linear-gradient(to right bottom,rgba(0, 0, 10, 0.7),rgba(0, 0, 0, 0.4)),url("../img/bg4.jpg");
 
     
     }
@@ -443,7 +443,7 @@ color:rgb(114, 249, 207);
 
 .E_img{
 
-    background-image:linear-gradient(to right bottom,rgba(0, 0, 10, 0.6),rgba(0, 0, 0, 0.8)),url("../img/bg5.jpg");
+    background-image:linear-gradient(to right bottom,rgba(0, 0, 10, 0.3),rgba(0, 0, 0, 0.8)),url("../img/bg5.jpg");
     height: 500px;
     width:100%;
     background-size: cover;
@@ -543,7 +543,7 @@ color:rgb(114, 249, 207);
 
 .F_img{
 
-    background-image:linear-gradient(to right bottom,rgba(16, 43, 58, 0.8),rgba(0, 0, 0, 0.8)),url("../img/bg6.jpg");
+    background-image:linear-gradient(to right bottom,rgba(16, 43, 58, 0.9),rgba(0, 0, 0, 0.3)),url("../img/bg6.jpg");
     height: 500px;
     width:100%;
     background-size: cover;
