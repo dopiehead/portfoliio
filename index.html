@@ -546,7 +546,7 @@ $('.work').on('click', function() {
                     scrollTop: $('#skills').offset().top
                 }, 1000); 
                 
-                $("#myform").hide(); 
+                $("#myform").toggleClass("overlayParent"); 
 
                 $(".menu-icon").toggleClass("close");
                 
@@ -561,7 +561,8 @@ $('.work').on('click', function() {
                     scrollTop: $('#companies').offset().top
                 }, 1000);
 
-                $("#myform").hide();  
+
+                $("#myform").toggleClass("overlayParent"); 
 
                 $(".menu-icon").toggleClass("close");
 
@@ -574,7 +575,7 @@ $('.work').on('click', function() {
                     scrollTop: $('#contact').offset().top
                 }, 1000);
 
-                $("#myform").hide();  
+                $("#myform").toggleClass("overlayParent"); 
 
                 $(".menu-icon").toggleClass("close");
             });
