@@ -62,9 +62,9 @@
 
     <div class="overlay-content">
     
-            <a id="work">Work</a>
+            <a class="work  text-decoration-none" id="work">Work</a>
  
-            <a id="experience">Experience</a>
+            <a class="experience  text-decoration-none" id="experience">Experience</a>
     
           <a class="contact text-decoration-none">Contact</a>  
       
@@ -537,6 +537,50 @@
 <script src="assets/js/scroll.js" type="text/javascript"></script>
 
 <script src="assets/js/index.js" type="text/javascript"></script>
+
+<script>
+
+
+$('.work').on('click', function() {
+                $('html, body').animate({
+                    scrollTop: $('#skills').offset().top
+                }, 1000); 
+                
+                $("#myform").hide(); 
+                
+                alert("yes");
+
+    
+
+            });
+         
+            $('.experience').on('click', function() {
+                $('html, body').animate({
+                    scrollTop: $('#companies').offset().top
+                }, 1000);
+
+                $("#myform").hide();  
+
+                alert("yes");
+            });
+
+            
+            $('.contact').on('click', function() {
+                $('html, body').animate({
+                    scrollTop: $('#contact').offset().top
+                }, 1000);
+
+                $("#myform").hide();  
+            });
+
+
+
+
+
+
+
+
+</script>
 
 
 
