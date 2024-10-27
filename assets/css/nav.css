@@ -68,6 +68,19 @@ header{
         height:auto;
     }
     
+
+    @media screen and (max-width:1200px) {
+
+
+        header div img{
+            max-width:40px;
+            height:auto;
+        }
+        
+
+    }
+
+
     
     ul{
         list-style-type: decimal;
