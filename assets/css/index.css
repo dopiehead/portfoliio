@@ -10,6 +10,7 @@ body{
      font-family: poppins;
      color: white;
      width:100%;
+     overflow-y:hidden !important;
 
 }
 
@@ -26,9 +27,9 @@ body{
 @media screen and (min-width:380px) and (max-width:1200px) {
     
     .menu{
-     background-image: linear-gradient(to right top,rgba(4, 103, 131, 0.8),rgba(20, 63, 75,0.5)),url("../img/img.JPG");
+           background-image: linear-gradient(to right top,rgba(4, 103, 131, 0.8),rgba(20, 63, 75,0.5)),url("../img/img.JPG");
     
-    height:70vh;
+           height:70vh;
 
 
 
@@ -43,7 +44,7 @@ body{
     
     .menu{
   
-    height:100vh;
+          height:100vh;
 
     }
     
@@ -52,7 +53,8 @@ body{
 
 
 .fw-bold{
-    font-weight:bold;
+
+          font-weight:bold;
 }
 
 
@@ -60,8 +62,8 @@ body{
 
 .main{
 
-    background-color: #04121e;
-    padding: 30px 20px;
+          background-color: #04121e;
+          padding: 30px 20px;
    
     
 }
@@ -69,8 +71,8 @@ body{
 @media screen and (max-width:1200px) {
     .main{
 
-        background-color: #04121e;
-        padding: 20px 10px;
+            background-color: #04121e;
+            padding: 20px 10px;
     }
 
 }
@@ -94,15 +96,15 @@ body{
 /* body */
 
 #skills h6{
-    font-weight: bold;
-    padding:10px 0px;
-    border-bottom: 2px solid white;
-    width:300px;
+     font-weight: bold;
+      padding:10px 0px;
+      border-bottom: 2px solid white;
+      width:300px;
 }
 
 #skills h1{
-font-weight: bolder;
-font-size: 5rem;
+       font-weight: bolder;
+       font-size: 5rem;
 
 }
 
@@ -111,8 +113,8 @@ font-size: 5rem;
 
 @media screen and (max-width:1200px) {
     #skills h1{
-        font-weight: bolder;
-        font-size: 2rem;
+            font-weight: bolder;
+           font-size: 2rem;
         
         }
         
@@ -122,7 +124,7 @@ font-size: 5rem;
 
 #skill p{
 
-    font-size: 1rem;
+          font-size: 1rem;
 }
 
 
@@ -132,8 +134,8 @@ font-size: 5rem;
 @media screen and (max-width:1200px) {
     #skills p{
     
-        font-size: 0.9rem;
-        width:80%;
+           font-size: 0.9rem;
+           width:80%;
        
         
         }
@@ -145,11 +147,11 @@ font-size: 5rem;
 /* companies section */
 
 #companies h6{
-    font-weight: bolder;
-    border-bottom: 2px solid white;
-    width: 490px;
-    padding: 5px 0px;
-    font-size: 2rem;
+        font-weight: bolder;
+        border-bottom: 2px solid white;
+        width: 490px;
+        padding: 5px 0px;
+        font-size: 2rem;
 }
 
 
@@ -217,23 +219,23 @@ font-size: 5rem;
 }
 
 .job_title{
-    display:flex;
-    flex-direction: column;
-    gap:30px;
+       display:flex;
+       flex-direction: column;
+       gap:30px;
 }
 
 
 /* hello section */
 
 #contact h5{
-    padding:8px 0px;
-    border-bottom:2px solid white;
-    width:250px;
+       padding:8px 0px;
+       border-bottom:2px solid white;
+       width:250px;
 }
 
 .hello{
-    font-size: 5rem;
-    font-weight: bolder;
+      font-size: 5rem;
+      font-weight: bolder;
 }
 
 @media screen and (max-width:1200px){
@@ -244,10 +246,6 @@ font-size: 5rem;
     }
 
 }
-
-
-
-
 
 
 

@@ -1,7 +1,7 @@
 
-
 $(document).ready(function() {
-    $(".menu-icon").click(function(){
+
+     $(".menu-icon").click(function(){
 
          $(this).toggleClass("close");
 
@@ -9,20 +9,20 @@ $(document).ready(function() {
 
          $("#myform").css("transition", "0.3s ease-in-out");
 
+     });
 
-    });
-
-    $(".open_description").click(function(e) {
-        e.preventDefault();
+     $(".open_description").click(function(e) {
+          e.preventDefault();
     
-        var $this = $(this);
-        var $description = $this.parent().next();
+          var $this = $(this);
+          
+          var $description = $this.parent().next();
     
-        $description.slideToggle();
+          $description.slideToggle();
     
-        // Toggle icons
-        $this.find(".plus").toggle();
-        $this.find(".minus").toggle();
+          // Toggle icons
+           $this.find(".plus").toggle();
+          $this.find(".minus").toggle();
     });
 
         });
