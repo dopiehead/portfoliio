@@ -263,7 +263,7 @@ color:rgb(114, 249, 207);
 .C .notes{
     display: flex;
     flex-direction: column;
-    text-align:start;
+    text-align:end;
     justify-content: center;
     height: 100%;
    
@@ -280,7 +280,7 @@ color:rgb(114, 249, 207);
 
 .C .text-p{
     display:flex;
-    text-align:start;
+    text-align:end;
     
 }
 
