@@ -31,7 +31,8 @@ body{
 @media screen and (min-width:380px) and (max-width:1200px) {
     
     .menu{
-  
+     background-image: linear-gradient(to right top,rgba(4, 103, 131, 0.8),rgb(20, 63, 75)),url("../img/img.JPG");
+    
     height:70vh;
 
     }
@@ -432,6 +433,11 @@ font-weight: bold;
 color:rgb(114, 249, 207);
 }
 
+
+
+
+
+
 .A_img{
 
     background-image:linear-gradient(to right bottom,rgba(0, 0, 10, 0.8),rgba(0, 0, 0, 0.5)),url("../img/bg1.jpg");
@@ -441,6 +447,21 @@ color:rgb(114, 249, 207);
     background-position: center;
 
 }
+
+@media screen and (max-width: 768px) {
+   
+    
+    
+.A_img{
+
+    background-image:linear-gradient(to right bottom,rgba(0, 0, 10, 0.3),rgba(0, 0, 0, 0.4)),url("../img/bg1.jpg");
+
+}
+
+
+}
+
+
 
 .A .notes{
     display: flex;
@@ -519,6 +540,9 @@ font-weight: bold;
 color:rgb(114, 249, 207);
 }
 
+
+
+
 .B_img{
 
     background-image:linear-gradient(to right bottom,rgba(0, 0, 10, 0.6),rgba(0, 0, 0, 0.9)),url("../img/bg2.jpg");
@@ -526,6 +550,17 @@ color:rgb(114, 249, 207);
     width:100%;
     background-size: cover;
     background-position: center;
+
+}
+
+
+@media  screen and (max-width:768px) {
+    
+    .B_img{
+
+        background-image:linear-gradient(to right bottom,rgba(0, 0, 10, 0.4),rgba(0, 0, 0, 0.2)),url("../img/bg2.jpg");
+    
+    }
 
 }
 
@@ -619,6 +654,17 @@ color:rgb(114, 249, 207);
     width:100%;
     background-size: cover;
     background-position: center;
+
+}
+
+@media  screen and (max-width:768px) {
+
+    .C_img{
+
+        background-image:linear-gradient(to right bottom,rgba(0, 0, 10, 0.4),rgba(0, 0, 0, 0.2)),url("../img/bg3.jpg");
+    
+    }
+
 
 }
 
@@ -717,6 +763,18 @@ color:rgb(114, 249, 207);
 
 }
 
+@media  screen and (max-width:768px) {
+
+    .D_img{
+
+        background-image:linear-gradient(to right bottom,rgba(0, 0, 10, 0.5),rgba(0, 0, 0, 0.3)),url("../img/bg4.jpg");
+
+    
+    }
+
+
+}
+
 .D .notes{
     display: flex;
     flex-direction: column;
@@ -801,6 +859,20 @@ color:rgb(114, 249, 207);
 
 }
 
+
+@media  screen and (max-width:768px) {
+
+    .E_img{
+
+        background-image:linear-gradient(to right bottom,rgba(0, 0, 10, 0.3),rgba(0, 0, 0, 0.5)),url("../img/bg5.jpg");
+    
+    }
+    
+
+
+}
+
+
 .E .notes{
     display: flex;
     flex-direction: column;
@@ -884,6 +956,19 @@ color:rgb(114, 249, 207);
     width:100%;
     background-size: cover;
     background-position: center;
+
+}
+
+
+@media  screen and (max-width:768px) {
+
+    .F_img{
+
+        background-image:linear-gradient(to right bottom,rgba(16, 43, 58, 0.5),rgba(0, 0, 0, 0.3)),url("../img/bg6.jpg");
+
+    
+    }
+
 
 }
 
