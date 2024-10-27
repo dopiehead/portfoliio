@@ -19,6 +19,7 @@ body{
       height:100vh;
       background-size:cover;
       background-position: center;
+      background-attachment:fixed;
 }
 
 
@@ -28,6 +29,8 @@ body{
      background-image: linear-gradient(to right top,rgba(4, 103, 131, 0.8),rgb(20, 63, 75)),url("../img/img.JPG");
     
     height:70vh;
+
+    background-attachment: none;
 
     }
     
