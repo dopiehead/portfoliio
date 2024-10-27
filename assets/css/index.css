@@ -24,6 +24,23 @@ body{
 }
 
 
+
+@media (orientation: landscape) {
+  
+    .menu{
+     
+         height:100vh;
+    
+       
+   }
+
+  }
+
+
+
+
+
+
 @media screen and (min-width:380px) and (max-width:1200px) {
     
     .menu{
