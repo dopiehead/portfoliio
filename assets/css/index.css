@@ -430,7 +430,7 @@ color:rgb(114, 249, 207);
 
 .A_img{
 
-    background-image:linear-gradient(to right bottom,rgba(0, 0, 10, 0.6),rgba(0, 0, 0, 0.8)),url("../img/bg2.jpg");
+    background-image:linear-gradient(to right bottom,rgba(0, 0, 10, 0.6),rgba(0, 0, 0, 0.8)),url("../img/bg1.jpg");
     height: 500px;
     width:100%;
     background-size: cover;
@@ -610,7 +610,7 @@ color:rgb(114, 249, 207);
 
 .C_img{
 
-    background-image:linear-gradient(to right bottom,rgba(0, 0, 10, 0.6),rgba(0, 0, 0, 0.9)),url("../img/bg4.jpg");
+    background-image:linear-gradient(to right bottom,rgba(0, 0, 10, 0.6),rgba(0, 0, 0, 0.9)),url("../img/bg3.jpg");
     height: 500px;
     width:100%;
     background-size: cover;
