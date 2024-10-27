@@ -17,7 +17,7 @@
         top: 0px;
         left: 0;
         color:white;
-        background-color:#0c586c;
+        background-image:radial-gradient( #0c586c,#04121e);
        
         overflow-x:hidden;
         transition: 0.5s ease-in-out;
