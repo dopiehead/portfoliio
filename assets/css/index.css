@@ -1108,7 +1108,7 @@ color:rgb(114, 249, 207);
   }
 
 
-@media screen  and (max-width:768px){
+@media screen and (min-width:400px)  and (max-width:768px){
  
   
 .waves {
@@ -1120,6 +1120,21 @@ color:rgb(114, 249, 207);
   }  
 
 }
+
+
+
+@media screen and (min-width:310px)  and (max-width:400px){
+ 
+  
+    .waves {
+      
+        height:10vh;
+        overflow-x:hidden; 
+        left:0px;
+        margin-top:-82px; 
+      }  
+    
+    }
 
 
 
