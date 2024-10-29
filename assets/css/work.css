@@ -40,6 +40,15 @@ color:rgb(114, 249, 207);
 
 }
 
+
+
+.A_img:hover,.B_img:hover,.C_img:hover,.D_img:hover,.E_img:hover,.F_img:hover{
+ height: 450px;
+}
+
+
+
+
 @media screen and (max-width: 768px) {
    
     
