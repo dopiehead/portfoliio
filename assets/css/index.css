@@ -25,11 +25,11 @@ body{
 
 
 
-@media (orientation: landscape) {
+@media screen and (orientation: landscape) {
   
     .menu{
-     
-         height:150vh;
+/*      
+         height:150vh; */
     
        
    }
