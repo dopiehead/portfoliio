@@ -11,7 +11,7 @@
   }
 
 
-@media screen and (min-width:400px)  and (max-width:768px){
+@media screen and (min-width:420px)  and (max-width:768px){
  
   
 .waves {
@@ -23,6 +23,21 @@
   }  
 
 }
+
+
+
+@media screen and (min-width:401px)  and (max-width:419px){
+ 
+  
+    .waves {
+      
+        height:10vh;
+        overflow-x:hidden; 
+        left:0px;
+        margin-top:-110px; 
+      }  
+    
+    }
 
 
 
@@ -38,6 +53,12 @@
       }  
     
     }
+
+
+
+
+
+
 
 
 
