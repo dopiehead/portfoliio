@@ -41,7 +41,7 @@
 
 
 
-@media screen and (min-width:310px)  and (max-width:400px){
+@media screen and (min-width:310px)  and (max-width:375px){
  
   
     .waves {
@@ -49,14 +49,25 @@
         height:10vh;
         overflow-x:hidden; 
         left:0px;
-        margin-top:-104px; 
+        margin-top:-87px; 
       }  
     
     }
 
 
 
-
+    @media screen and (min-width:763px)  and (max-width:400px){
+ 
+  
+      .waves {
+        
+          height:10vh;
+          overflow-x:hidden; 
+          left:0px;
+          margin-top:-104px; 
+        }  
+      
+      }
 
 
 
